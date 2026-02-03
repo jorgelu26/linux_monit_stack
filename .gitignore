@@ -6,6 +6,17 @@ yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
 
+# Credentials and secrets
+.env
+
+# Monitoring data (to avoid uploading huge DB files)
+prometheus_data/
+grafana_data/
+
+# OS generated files
+.DS_Store
+thumbs.db
+
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
